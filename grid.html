@@ -4,7 +4,32 @@
     <meta charset="UTF-8">
     <title>Grid System</title>
     <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+        .row:last-child {
+            margin-bottom: 0;
+        }
+
+        .column {
+            background: #eeeeee;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            padding: 5px;
+            min-height: 30px;
+        }
+
+        .column .column {
+            background: #333333;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
 <div class="row">
