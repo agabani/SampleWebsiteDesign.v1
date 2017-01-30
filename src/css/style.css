@@ -40,6 +40,31 @@ nav .nav-bar ul li.active {
     border-bottom: none;
 }
 
+/* Footer */
+footer {
+    border-top: 1px solid #e5e0d8;
+    margin-top: 155px;
+}
+
+footer .nav-bar ul {
+    font-size: 1.3em;
+    list-style-type: none;
+    margin: 45px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer .nav-bar ul li {
+    border-bottom: 1px solid #e5e0d8;
+    display: inline-block;
+    font-size: 0.8em;
+    height: 2em;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+/* Content */
+
 p {
     line-height: 2.2;
 }
