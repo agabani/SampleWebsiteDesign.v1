@@ -73,6 +73,15 @@ p.intro {
     font-size: 0.95em;
 }
 
+.related .related-line {
+    border-top: 1px solid #e5e0d8;
+    margin-bottom: 2.9em;
+    margin-top: 1em;
+    position: relative;
+    left: -25.0%;
+    width: 125.0%;
+}
+
 .related .related-title {
     text-align: center;
 }
