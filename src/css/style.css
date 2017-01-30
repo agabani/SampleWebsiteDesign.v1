@@ -7,6 +7,7 @@
 /* Nav */
 nav {
     margin-top: 85px;
+    margin-bottom: 135px;
 }
 
 nav .logo {
@@ -17,6 +18,26 @@ nav .logo img {
     height: auto;
     max-width: 250px;
     width: 100%;
+}
+
+nav .nav-bar ul {
+    font-size: 1.3em;
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav .nav-bar ul li {
+    display: inline-block;
+    border-bottom: 1px solid #e5e0d8;
+    height: 2em;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+nav .nav-bar ul li.active {
+    border-bottom: none;
 }
 
 p {
