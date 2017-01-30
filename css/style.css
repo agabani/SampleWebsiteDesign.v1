@@ -43,3 +43,20 @@ p.intro {
 .column ul li + li {
     padding-top: 0.8em;
 }
+
+.quote {
+    margin-bottom: 2.8em;
+    margin-top: 2.8em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.quote p {
+    font-style: italic;
+    margin-bottom: 1.1em;
+}
+
+.quote small {
+    color: #766d5f;
+    font-size: 0.95em;
+}
