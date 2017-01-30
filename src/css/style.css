@@ -4,6 +4,21 @@
     width: 100%;
 }
 
+p {
+    line-height: 2.2;
+}
+
+p.intro {
+    font-size: 1.425em;
+    line-height: 2.02;
+}
+
+a:link,
+a:visited {
+    color: #766d5f;
+    text-decoration: none;
+}
+
 /* Nav */
 nav {
     margin-top: 85px;
@@ -97,19 +112,8 @@ footer .copyright p {
 
 /* Content */
 
-p {
-    line-height: 2.2;
-}
-
-p.intro {
-    font-size: 1.425em;
-    line-height: 2.02;
-}
-
-a:link,
-a:visited {
-    color: #766d5f;
-    text-decoration: none;
+.content a {
+    text-decoration: underline;
 }
 
 /* Caption */
