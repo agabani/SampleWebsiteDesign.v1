@@ -44,6 +44,7 @@ nav .nav-bar ul li.active {
 footer {
     border-top: 1px solid #e5e0d8;
     margin-top: 155px;
+    margin-bottom: 85px;
 }
 
 footer .nav-bar ul {
@@ -61,6 +62,37 @@ footer .nav-bar ul li {
     height: 2em;
     margin-top: 20px;
     padding: 0 25px;
+}
+
+footer .social {
+    margin: 60px;
+    text-align: center;
+}
+
+footer .social .facebook {
+    height: 30px;
+}
+
+footer .social .twitter {
+    height: 28px;
+}
+
+footer .social .youtube {
+    height: 26px;
+}
+
+footer .social img + img {
+    margin-left: 25px;
+}
+
+footer .copyright {
+    margin-top: 105px;
+    text-align: center;
+}
+
+footer .copyright p {
+    line-height: 1.6em;
+    margin: 0;
 }
 
 /* Content */
