@@ -4,6 +4,21 @@
     width: 100%;
 }
 
+/* Nav */
+nav {
+    margin-top: 85px;
+}
+
+nav .logo {
+    text-align: center;
+}
+
+nav .logo img {
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+}
+
 p {
     line-height: 2.2;
 }
