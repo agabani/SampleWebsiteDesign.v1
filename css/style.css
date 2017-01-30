@@ -1,0 +1,45 @@
+.content {
+    margin: 0 auto;
+    max-width: 1250px;
+    width: 100%;
+}
+
+p {
+    line-height: 2.2;
+}
+
+p.intro {
+    font-size: 1.425em;
+    line-height: 2.02;
+}
+
+.column a:link {
+    color: #766d5f;
+    text-decoration: none;
+}
+
+.caption {
+    left: -1.6%;
+    position: relative;
+    width: 103.2%;
+}
+
+.caption img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.caption small {
+    font-size: 0.95em;
+    line-height: 1;
+}
+
+.column ul {
+    padding-left: 1em;
+    line-height: 2.2em;
+}
+
+.column ul li + li {
+    padding-top: 0.8em;
+}
