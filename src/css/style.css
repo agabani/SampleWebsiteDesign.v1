@@ -61,11 +61,15 @@ nav .nav-bar ul {
 }
 
 nav .nav-bar ul li {
-    display: inline-block;
     border-bottom: 1px solid #e5e0d8;
+    display: inline-block;
     height: 2em;
     margin-top: 20px;
     padding: 0 25px;
+}
+
+nav .nav-bar ul li a {
+    text-decoration: none;
 }
 
 nav .nav-bar ul li.active {
@@ -242,6 +246,11 @@ footer .nav-bar ul li {
     margin-top: 20px;
     padding: 0 25px;
 }
+
+footer .nav-bar ul li a {
+    text-decoration: none;
+}
+
 
 footer .social {
     margin: 60px;
