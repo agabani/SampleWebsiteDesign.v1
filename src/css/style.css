@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+body {
+    border-left: 20px solid #e5e0d8;
+    margin: 0;
+}
+
 p {
     line-height: 2.2;
 }
@@ -21,7 +26,7 @@ a:visited {
 
 /* Nav */
 nav {
-    margin-top: 85px;
+    padding-top: 85px;
     margin-bottom: 135px;
 }
 
@@ -59,7 +64,7 @@ nav .nav-bar ul li.active {
 footer {
     border-top: 1px solid #e5e0d8;
     margin-top: 155px;
-    margin-bottom: 85px;
+    padding-bottom: 85px;
 }
 
 footer .nav-bar ul {
